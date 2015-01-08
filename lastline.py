@@ -5,5 +5,5 @@ fn = open (filename, 'r')
 
 filelines = fn.readlines()
 
-numlines =len(filelines)
-print "filelines[numlines-1]",
+#numlines =len(filelines)
+print filelines[-1],
